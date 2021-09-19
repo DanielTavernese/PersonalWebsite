@@ -5,6 +5,8 @@ import protectLogo from '../../images/protect.png';
 import pathfinderLogo from '../../images/pathfinder.png';
 import swingmanLogo from '../../images/swingman.jpg';
 import qcoursesLogo from '../../images/qcourses.png';
+import fallingBallLogo from '../../images/FallingBall2DGame.png';
+import robotLogo from '../../images/robot.png';
 
 function Projects() {
   return (
@@ -16,7 +18,7 @@ function Projects() {
               <ProjectItem
                 src={protectLogo}
                 text='Protect!'
-                path='https://aws.amazon.com/'
+                path='https://github.com/DanielTavernese/Protect'
                 date='Summer 2020'
                 items={[
                   'Game application built using Android Studio and LibGDX libraries.',
@@ -29,7 +31,7 @@ function Projects() {
               <ProjectItem
                 src={pathfinderLogo}
                 text='Pathfinder Visualization'
-                path='https://aws.amazon.com/'
+                path='https://github.com/DanielTavernese/Pathfinding'
                 date='April 2021'
                 items={[
                   'GUI which allows user to visualize different pathfinding algorithms.',
@@ -39,9 +41,22 @@ function Projects() {
             </div>
             <div className='jobs__spacing'>
               <ProjectItem
+                src={robotLogo}
+                text='Dice Collecting Robot'
+                path='https://github.com/DanielTavernese/DiceCollectingRobot'
+                date='Winter 2018'
+                items={[
+                  'Autonomous Robot created in robot engineering course that was programmed to collect dice around playfield.',
+                  'Hardware sensors were used to detect how far the robot was from walls and when to turn.',
+                  'Programmed in C and used Arduino Board for hardware hookups.',
+                ]}
+              />
+            </div>
+            <div className='jobs__spacing'>
+              <ProjectItem
                 src={swingmanLogo}
                 text='Swingman'
-                path='https://aws.amazon.com/'
+                path='https://github.com/DanielTavernese/Swing-Man'
                 date='December 2019'
                 items={[
                   'Created with group members over 4 month course.',
@@ -59,6 +74,18 @@ function Projects() {
                   'Utilizes Spring-boot framework with a back end written in Java and Front end written in JavaScript, HTML and CSS',
                   'Data is loaded into relational database (Postgres) and utilizes a web scraper written in Python',
                   'Obtained hundreds of student users',
+                ]}
+              />
+            </div>
+            <div className='jobs__spacing'>
+              <ProjectItem
+                src={fallingBallLogo}
+                text='Falling Ball 2D Game'
+                path='https://github.com/DanielTavernese/FallingBall2DGame'
+                date='Summer 2017'
+                items={[
+                  'Programmed in Java using Java swing libraries',
+                  'Custom game engine, graphics, updating system and entity system.',
                 ]}
               />
             </div>

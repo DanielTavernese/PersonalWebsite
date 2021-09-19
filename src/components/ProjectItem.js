@@ -32,7 +32,7 @@ function ProjectItem(props) {
             </div>
             <div className='button-style'>
               <Button
-                href='https://github.com/DanielTavernese/Protect'
+                href={props.path}
                 type='submit'
               >
                 Github
