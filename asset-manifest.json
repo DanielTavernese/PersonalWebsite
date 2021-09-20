@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/PersonalWebsite/static/css/main.a32d37cd.chunk.css",
+    "main.js": "/PersonalWebsite/static/js/main.f86f4968.chunk.js",
+    "main.js.map": "/PersonalWebsite/static/js/main.f86f4968.chunk.js.map",
+    "runtime-main.js": "/PersonalWebsite/static/js/runtime-main.33ddef92.js",
+    "runtime-main.js.map": "/PersonalWebsite/static/js/runtime-main.33ddef92.js.map",
+    "static/css/2.f2512455.chunk.css": "/PersonalWebsite/static/css/2.f2512455.chunk.css",
+    "static/js/2.b8e0d147.chunk.js": "/PersonalWebsite/static/js/2.b8e0d147.chunk.js",
+    "static/js/2.b8e0d147.chunk.js.map": "/PersonalWebsite/static/js/2.b8e0d147.chunk.js.map",
+    "index.html": "/PersonalWebsite/index.html",
+    "static/css/2.f2512455.chunk.css.map": "/PersonalWebsite/static/css/2.f2512455.chunk.css.map",
+    "static/css/main.a32d37cd.chunk.css.map": "/PersonalWebsite/static/css/main.a32d37cd.chunk.css.map",
+    "static/js/2.b8e0d147.chunk.js.LICENSE.txt": "/PersonalWebsite/static/js/2.b8e0d147.chunk.js.LICENSE.txt",
+    "static/media/FallingBall2DGame.fce989b3.png": "/PersonalWebsite/static/media/FallingBall2DGame.fce989b3.png",
+    "static/media/aws.7cfb1f5c.png": "/PersonalWebsite/static/media/aws.7cfb1f5c.png",
+    "static/media/ericsson.6e3acfcf.jpg": "/PersonalWebsite/static/media/ericsson.6e3acfcf.jpg",
+    "static/media/pathfinder.28d73837.png": "/PersonalWebsite/static/media/pathfinder.28d73837.png",
+    "static/media/protect.a4f8e4de.png": "/PersonalWebsite/static/media/protect.a4f8e4de.png",
+    "static/media/qcourses.fbfa3c6d.png": "/PersonalWebsite/static/media/qcourses.fbfa3c6d.png",
+    "static/media/queens.6df00fff.png": "/PersonalWebsite/static/media/queens.6df00fff.png",
+    "static/media/robot.1c50d1d9.png": "/PersonalWebsite/static/media/robot.1c50d1d9.png",
+    "static/media/swingman.df99cc12.jpg": "/PersonalWebsite/static/media/swingman.df99cc12.jpg",
+    "static/media/video-2.58ab4275.mp4": "/PersonalWebsite/static/media/video-2.58ab4275.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.33ddef92.js",
+    "static/css/2.f2512455.chunk.css",
+    "static/js/2.b8e0d147.chunk.js",
+    "static/css/main.a32d37cd.chunk.css",
+    "static/js/main.f86f4968.chunk.js"
+  ]
+}
