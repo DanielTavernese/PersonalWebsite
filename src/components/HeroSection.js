@@ -14,7 +14,7 @@ function HeroSection() {
           steps={[
             'Hi I am Daniel',
             2000,
-            'I am a future Software Engineer',
+            'I am an aspiring Software Engineer',
             1000,
           ]}
         />

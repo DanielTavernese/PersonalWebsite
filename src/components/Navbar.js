@@ -50,6 +50,32 @@ function Navbar() {
                 Projects
               </Link>
             </li>
+            <li className='nav-item'>
+              <Link
+                to={{
+                  pathname: 'https://github.com/DanielTavernese',
+                }}
+                target='_blank'
+                className='nav-links'
+                onClick={closeMobileMenu}
+                target='_blank'
+              >
+                Github
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+                to={{
+                  pathname:
+                    'https://drive.google.com/file/d/1b7hkY0EXpxRyN35RnVPVuHfslnR2IdGp/view?usp=sharing',
+                }}
+                target='_blank'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                Resume
+              </Link>
+            </li>
           </ul>
         </div>
       </nav>
