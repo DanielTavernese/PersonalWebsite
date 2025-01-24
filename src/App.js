@@ -13,6 +13,7 @@ function App() {
         <Navbar></Navbar>
         <Switch>
           <Route path='/' exact component={Home} />
+          <Route path='/PersonalWebsite' exact component={Home} />
           <Route path='/jobs' exact component={Jobs} />
           <Route path='/projects' exact component={Projects} />
         </Switch>
