@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import { Button } from './Button';
-import './Navbar.css';
+import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
+import { Button } from "./Button";
+import "./Navbar.css";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -18,59 +18,59 @@ function Navbar() {
     showButton();
   }, []);
 
-  window.addEventListener('resize', showButton);
+  window.addEventListener("resize", showButton);
 
   return (
     <>
-      <nav className='navbar'>
-        <div className='navbar-container'>
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+      <nav className="navbar">
+        <div className="navbar-container">
+          <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
             Daniel Tavernese
           </Link>
-          <div className='menu-icon' onClick={handleClick}>
-            <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+          <div className="menu-icon" onClick={handleClick}>
+            <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>
-          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-            <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+          <ul className={click ? "nav-menu active" : "nav-menu"}>
+            <li className="nav-item">
+              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
                 Home
               </Link>
             </li>
-            <li className='nav-item'>
-              <Link to='/jobs' className='nav-links' onClick={closeMobileMenu}>
+            <li className="nav-item">
+              <Link to="/jobs" className="nav-links" onClick={closeMobileMenu}>
                 Work Experience
               </Link>
             </li>
-            <li className='nav-item'>
+            <li className="nav-item">
               <Link
-                to='/projects'
-                className='nav-links'
+                to="/projects"
+                className="nav-links"
                 onClick={closeMobileMenu}
               >
                 Projects
               </Link>
             </li>
-            <li className='nav-item'>
+            <li className="nav-item">
               <Link
                 to={{
-                  pathname: 'https://github.com/DanielTavernese',
+                  pathname: "https://github.com/DanielTavernese",
                 }}
-                target='_blank'
-                className='nav-links'
+                target="_blank"
+                className="nav-links"
                 onClick={closeMobileMenu}
-                target='_blank'
+                target="_blank"
               >
                 Github
               </Link>
             </li>
-            <li className='nav-item'>
+            <li className="nav-item">
               <Link
                 to={{
                   pathname:
-                    'https://drive.google.com/file/d/1b7hkY0EXpxRyN35RnVPVuHfslnR2IdGp/view?usp=sharing',
+                    "https://drive.google.com/file/d/1IwOoigWeqOIAk80hau3ovSRtpmBpu9Wz/view?usp=sharing",
                 }}
-                target='_blank'
-                className='nav-links'
+                target="_blank"
+                className="nav-links"
                 onClick={closeMobileMenu}
               >
                 Resume
